@@ -1,0 +1,42 @@
+<!-- nav Bootstrap-5
+ 1. basic navigation
+ 2. Disabled link
+ 3. Verical Naivgation - flex-column
+ 4. Alignment Naivgation - justify-content-center || justify-content-end
+    -> (if only work when flex-column is not in class)
+ 5. nav tabs
+ 6. nav pills
+ 7. dynamic/togglable tabs
+ 8. dynamic/togglable pills
+ 9. nav with dropdown
+ 
+-> Classes :
+    1. .nav -> <ul> tag
+    1. .nav-item -> <li> tag
+    1. .nav-link -> <a> tag  -->
+
+
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+        </head>
+        <body>
+            <!-- margin top -->
+            <div class="container mt-5">
+                <ul class="nav justify-content-center nav-tabs nav-pills">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link active">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link disabled">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </body>
+</html>
